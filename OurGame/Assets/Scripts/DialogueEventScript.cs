@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class DialogueEventScript : MonoBehaviour
 {
 
-    public string text;
+    public string[] texts;
 
-    public Sprite sprite;
+    public Sprite[] sprites;
 
     bool isActivated;
     
@@ -20,7 +20,7 @@ public class DialogueEventScript : MonoBehaviour
             DialogueBoxScript dialogueBox = GameObject.Find("DialogueBox").GetComponent<DialogueBoxScript>();
 
             dialogueBox.gameObject.SetActive(true);
-            dialogueBox.ShowText(text, sprite);
+            dialogueBox.ShowDialogue(texts, sprites);
             isActivated = true;
         }
     }
