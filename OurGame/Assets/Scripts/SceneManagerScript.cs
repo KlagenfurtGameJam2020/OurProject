@@ -45,6 +45,15 @@ public class SceneManagerScript : MonoBehaviour
 
     IEnumerator PlayVictorySequence()
     {
+        //Freeze player and fairy
+        PlayerController player = FindObjectOfType<PlayerController>();
+        float tempPlayerMoveSpeed = player.moveSpeed;
+        player.moveSpeed = 0;
+
+        LightMovement fairy = FindObjectOfType<LightMovement>();
+        float tempFairySpeed = fairy.rotateSpeed;
+        fairy.rotateSpeed = 0;
+
         MusicScript music = FindObjectOfType<MusicScript>();
 
         music.StopNormal();
@@ -53,7 +62,8 @@ public class SceneManagerScript : MonoBehaviour
 
         yield return new WaitForSeconds(8f);
 
-
+        player.moveSpeed = tempPlayerMoveSpeed;
+        fairy.rotateSpeed = (int)tempFairySpeed;
         //Load new Scene
         SceneManager.LoadScene(nextScene);
     }
