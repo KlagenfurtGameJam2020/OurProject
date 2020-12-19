@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 
     public Rigidbody2D rb;
     public bool isGrounded = false;
-
+    public Animator animator;
     public float moveSpeed = 5f;
     public float jumpSpeed = 10f;
     
