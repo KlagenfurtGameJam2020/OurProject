@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 5686787326702326604}
   - component: {fileID: 5686787326702326605}
   - component: {fileID: 5686787326702326606}
+  - component: {fileID: 9127557389880298362}
+  - component: {fileID: 497582011555863636}
   m_Layer: 0
   m_Name: EnemyFlying
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,13 +99,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
-  point1: 0
-  point2: 0
+  shootCount: 1
+  projectile: {fileID: 268147080465328399, guid: e70cd2b4b746b40d790f580e9afd19d6,
+    type: 3}
+  projectileSpeed: 0
+  timeBetweenShots: 0.4
+  waitTime: 1
   moves:
   - {x: -3, y: 0}
   - {x: 3, y: 0}
   - {x: 0, y: 3}
   - {x: 0, y: -3}
+  - {x: -3, y: 0}
+  - {x: 0, y: -3}
+  - {x: 3, y: 0}
+  - {x: 0, y: 3}
   lastPoint: {x: 0, y: 0}
   movesVertical: 1
 --- !u!61 &5686787326702326605
@@ -153,3 +163,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &9127557389880298362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5686787326702326607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bc516af222649a295f7b25978d040c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+--- !u!114 &497582011555863636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5686787326702326607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13de2a44cf4c4a179822c0eb6ef889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1

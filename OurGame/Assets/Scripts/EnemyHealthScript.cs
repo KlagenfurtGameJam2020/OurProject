@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHealthScript : MonoBehaviour
+public class EnemyHealthScript : MonoBehaviour
 {
-
     public int health;
 
     // Start is called before the first frame update
@@ -46,12 +45,12 @@ public class PlayerHealthScript : MonoBehaviour
     }
 
 
-    //Checks if player is dead and respawns him
+    //Checks if enemy is dead and destroys him
     public void CheckIfDead()
     {
-        if(health <= 0)
+        if (health <= 0)
         {
-            FindObjectOfType<RespawnScript>().RespawnPlayer();
+            Destroy(gameObject);
         }
 
     }

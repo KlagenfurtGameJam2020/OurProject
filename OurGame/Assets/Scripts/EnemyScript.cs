@@ -9,9 +9,20 @@ public class EnemyScript : MonoBehaviour
     public float moveSpeed;
 
 
-    //The two points between which the enemy moves
-    public float point1;
-    public float point2;
+    //Checks how many projectiles the enemy shoots per move
+    public int shootCount;
+
+    public Transform projectile;
+
+    public float projectileSpeed;
+
+    //Time between two consecutive shoots
+    public float timeBetweenShots;
+
+
+    //Time Enemy Waits between moves
+    public float waitTime;
+  
 
     public Vector2[] moves;
 
@@ -21,119 +32,108 @@ public class EnemyScript : MonoBehaviour
     public bool movesVertical;
 
 
-    //Direction where enemy moves.  -1...left,   +1...right
-    private int dir;
-
 
     private int moveCount;
 
     Rigidbody2D myRB;
+
+
+    //Shows if enemy is currently waiting
+    private bool isWaiting = false;
 
     // Start is called before the first frame update
     void Start()
     {
 
         myRB = GetComponent<Rigidbody2D>();
-
-        dir = -1;
-
         moveCount = 0;
-
         lastPoint = transform.position;
 
-       // float start = Random.Range(0, 5);
-
-        //InvokeRepeating("SwitchDirection",0, switchTime);
+     
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Move horizontally
-        /* if (!movesVertical)
-         {
-             myRB.velocity = new Vector2(dir * moveSpeed, myRB.velocity.y);
-
-
-             //Switch direction
-             if (dir == -1 && transform.position.x < point1 || dir == 1 && transform.position.x > point2)
-             {
-                 dir *= -1;
-             }
-         }
-         else
-         {
-             //Move vertically
-             myRB.velocity = new Vector2(0, dir * moveSpeed);
-
-
-             //Switch direction
-             if (dir == -1 && transform.position.y < point1 || dir == 1 && transform.position.y > point2)
-             {
-                 dir *= -1;
-             }
-
-         }*/
-
-        
-            //Vector2 direction = new Vector2(point1.x - transform.position.x, point1.y - transform.position.y);
-
+ 
+        if (!isWaiting)
+        {
             Vector2 direction = moves[moveCount].normalized;
 
             myRB.velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
 
-        Vector2 difference = new Vector2(transform.position.x - lastPoint.x, transform.position.y - lastPoint.y);
 
-        if (difference.magnitude >= moves[moveCount].magnitude)
-        {
-            moveCount++;
+            Vector2 difference = new Vector2(transform.position.x - lastPoint.x, transform.position.y - lastPoint.y);
 
-            lastPoint = transform.position;
-
-
-            //Return to first move at the end of array
-            if (moveCount == moves.Length)
+            //If a move is finished then wait and then switch to the next move
+            if (difference.magnitude >= moves[moveCount].magnitude)
             {
-                moveCount = 0;
+                Debug.Log("Enemy switches move");
+
+                myRB.velocity = new Vector2(0, 0);
+
+                isWaiting = true;
+
+                StartCoroutine(SwitchMove());
+
+               
             }
         }
 
-        
+    }
 
+
+
+    private void ShootProjectile()
+    {
+        Debug.Log("Enemy shoots projectile");
+
+        Transform p = Instantiate(projectile) as Transform;
+
+        p.position = gameObject.transform.position;
+
+        p.GetComponent<Rigidbody2D>().velocity = moves[moveCount].normalized * p.GetComponent<ProjectileScript>().speed;
 
     }
 
 
-    void SwitchDirection()
+    //Wait, shoot(optional) and switch to the next move
+    IEnumerator SwitchMove()
     {
-        Debug.Log("Enemy switches direction.");
-        //myRB.velocity = new Vector2(dir * moveSpeed, 0);
+        Debug.Log("Enemy switches move");
+        //Wait given time
 
-        //myRB.AddForce(new Vector2(dir * moveSpeed, 0));
+        yield return new WaitForSeconds(waitTime);
 
-        //Switch direction
-        dir *= -1;
-
-    }
-
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-
-        Debug.Log("Something collided with enemy");
-
-        //If Enemy touches Player, the player loses 1 health (and dies)
-
-        if (collision.gameObject.name.Equals("Player"))
+        //Shoot projectiles and wait between each shoot
+        for(int i = 0; i < shootCount; i++)
         {
-            Debug.Log("Player collided with enemy");
+            Debug.Log("Enemy shoots projectile -1");
 
-            //Subtract player health here
 
-            collision.gameObject.GetComponent<PlayerHealthScript>().DecreaseHealth();
+            ShootProjectile();
+            yield return new WaitForSeconds(timeBetweenShots);
         }
+
+        //Set new move
+        moveCount++;
+
+        lastPoint = transform.position;
+
+
+        //Return to first move at the end of array
+        if (moveCount == moves.Length)
+        {
+            moveCount = 0;
+        }
+
+        //End waiting
+
+        isWaiting = false;
+
     }
 
+    
 
 
 }
