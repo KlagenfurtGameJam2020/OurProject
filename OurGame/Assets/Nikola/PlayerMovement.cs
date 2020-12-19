@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-
     public float speed;
     public float jumpForce;
     Rigidbody2D rb;
@@ -27,7 +26,7 @@ public class PlayerController : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         isGrounded = false;
 
-        animator = gameObject.GetComponent<Animator>();
+        animator = gameObject.GetComponent <Animator>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
     }
 
@@ -36,7 +35,7 @@ public class PlayerController : MonoBehaviour
     {
         xInput = Input.GetAxis("Horizontal");
 
-        if (xInput != 0)
+        if(xInput != 0)
         {
             isIdle = false;
 
@@ -61,7 +60,7 @@ public class PlayerController : MonoBehaviour
             }
 
             //if xInput is negative, the player moving left
-            else if (xInput < 0f)
+            else if(xInput < 0f)
             {
                 spriteRenderer.flipX = true;
             }
@@ -71,7 +70,7 @@ public class PlayerController : MonoBehaviour
         else
         {
 
-            if (isGrounded == true)
+            if(isGrounded == true)
             {
                 isIdle = true;
                 isRunning = false;
