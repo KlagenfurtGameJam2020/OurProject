@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Ksenia/TestScene4.unity
     guid: 3bde569c6b765bb47b3b2d3f93db3096
+  - enabled: 1
+    path: Assets/Dominik/DominikScenes/NextScene.unity
+    guid: 7a5ea89e6815446999699b04b1001132
   m_configObjects: {}

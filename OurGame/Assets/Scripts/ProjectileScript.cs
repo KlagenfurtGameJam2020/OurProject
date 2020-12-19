@@ -31,9 +31,9 @@ public class ProjectileScript : MonoBehaviour
     {
 
       
-        //Destroy projectile when it collides with something(but not an enemy!!)
+        //Destroy projectile when it collides with a wall)
 
-        if (!collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Wall"))
         {
             DestroyProjectile();
         }

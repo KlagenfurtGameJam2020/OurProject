@@ -28,13 +28,13 @@ public class CheckpointScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Checkpoint collided with player");
+      //  Debug.Log("Checkpoint collided with player");
 
         //If player enters checkpoint, save checkpoint in player script
         if (!isActivated && collision.CompareTag("Player"))
         {
 
-            Debug.Log("Activate Checkpoint");
+           // Debug.Log("Activate Checkpoint");
 
             RespawnScript.currentCheckpoint = gameObject.transform;
 
