@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1568,8 +1568,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f94f67687ce15444b85606e31f8d740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
+  rb: {fileID: 1753938002}
   isGrounded: 1
+  animator: {fileID: 0}
   moveSpeed: 5
   jumpSpeed: 10
 --- !u!114 &1753938001
