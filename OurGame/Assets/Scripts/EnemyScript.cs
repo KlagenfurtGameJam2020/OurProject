@@ -46,6 +46,7 @@ public class EnemyScript : MonoBehaviour
         moveCount = 0;
         lastPoint = transform.position;
 
+       
      
     }
 
@@ -65,7 +66,7 @@ public class EnemyScript : MonoBehaviour
             //If a move is finished then wait and then switch to the next move
             if (difference.magnitude >= moves[moveCount].magnitude)
             {
-                Debug.Log("Enemy switches move");
+               // Debug.Log("Enemy switches move");
 
                 myRB.velocity = new Vector2(0, 0);
 
@@ -83,7 +84,7 @@ public class EnemyScript : MonoBehaviour
 
     private void ShootProjectile()
     {
-        Debug.Log("Enemy shoots projectile");
+      //  Debug.Log("Enemy shoots projectile");
 
         Transform p = Instantiate(projectile) as Transform;
 
@@ -91,13 +92,16 @@ public class EnemyScript : MonoBehaviour
 
         p.GetComponent<Rigidbody2D>().velocity = moves[moveCount].normalized * p.GetComponent<ProjectileScript>().speed;
 
+
+        //Projectiles has same visibility as Enemy
+        p.GetComponent<Renderer>().enabled = GetComponent<Renderer>().enabled;
     }
 
 
     //Wait, shoot(optional) and switch to the next move
     IEnumerator SwitchMove()
     {
-        Debug.Log("Enemy switches move");
+        //Debug.Log("Enemy switches move");
         //Wait given time
 
         yield return new WaitForSeconds(waitTime);
@@ -105,7 +109,7 @@ public class EnemyScript : MonoBehaviour
         //Shoot projectiles and wait between each shoot
         for(int i = 0; i < shootCount; i++)
         {
-            Debug.Log("Enemy shoots projectile -1");
+           // Debug.Log("Enemy shoots projectile -1");
 
 
             ShootProjectile();
@@ -130,7 +134,9 @@ public class EnemyScript : MonoBehaviour
 
     }
 
-    
+
+ 
+
 
 
 }
