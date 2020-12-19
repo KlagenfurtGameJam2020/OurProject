@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -368,6 +368,7 @@ GameObject:
   - component: {fileID: 125805292}
   - component: {fileID: 125805291}
   - component: {fileID: 125805290}
+  - component: {fileID: 125805293}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -440,6 +441,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &125805293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125805289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &209353546
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,6 +823,87 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269581362}
   m_CullTransparentMesh: 0
+--- !u!1 &524278686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 524278687}
+  - component: {fileID: 524278688}
+  m_Layer: 0
+  m_Name: in game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &524278687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524278686}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 38, y: 199, z: 0}
+  m_LocalScale: {x: 39.744858, y: 44.551666, z: 1}
+  m_Children: []
+  m_Father: {fileID: 846648034}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &524278688
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524278686}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 2
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a32c017f1eac59d4da66d5b66bbde18f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 7.42, y: 1.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &650406741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,7 +1134,7 @@ RectTransform:
   - {fileID: 1889407685}
   - {fileID: 227481379}
   m_Father: {fileID: 846648034}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1131,6 +1244,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 2082824962}
+  - {fileID: 524278687}
   - {fileID: 816407216}
   - {fileID: 1165389706}
   - {fileID: 1243326649}
@@ -1178,7 +1292,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -322, y: -116}
+  m_AnchoredPosition: {x: -284, y: -116}
   m_SizeDelta: {x: 88.134384, y: 31.907692}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1024070478
@@ -1313,7 +1427,7 @@ RectTransform:
   - {fileID: 209353547}
   - {fileID: 16917974}
   m_Father: {fileID: 846648034}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1350,7 +1464,7 @@ RectTransform:
   - {fileID: 1024070477}
   - {fileID: 1553832419}
   m_Father: {fileID: 846648034}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1391,8 +1505,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -79.4, y: -58.369}
-  m_SizeDelta: {x: 49.424896, y: 51.373886}
+  m_AnchoredPosition: {x: -68.81, y: -59.99}
+  m_SizeDelta: {x: 78.16821, y: 54.615326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1294698259
 MonoBehaviour:
@@ -1415,12 +1529,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9fd557f488f1e584b83608ab6ac56b0a, type: 3}
-    m_FontSize: 20
-    m_FontStyle: 0
+    m_FontSize: 27
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 0
+    m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1536,6 +1650,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1553832419}
+  - component: {fileID: 1553832420}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
@@ -1563,9 +1678,28 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: 450}
+  m_AnchoredPosition: {x: -50, y: -228}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1553832420
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553832418}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3bf6d25f927afc3419772d8127d301ba, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1566525772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,8 +1734,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 100, y: -58.369}
-  m_SizeDelta: {x: 49.424896, y: 51.373886}
+  m_AnchoredPosition: {x: 172.3, y: -59.99}
+  m_SizeDelta: {x: 142.28235, y: 54.615616}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1566525774
 MonoBehaviour:
@@ -1624,7 +1758,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9fd557f488f1e584b83608ab6ac56b0a, type: 3}
-    m_FontSize: 20
+    m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1765,8 +1899,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 164, y: -447}
-  m_SizeDelta: {x: 536.1885, y: 580.7296}
+  m_AnchoredPosition: {x: 153.2, y: -750.3}
+  m_SizeDelta: {x: 536.1885, y: 1056.8545}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736572425
 MonoBehaviour:
@@ -1800,11 +1934,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "ASSETS: \n\nCave background\n\nAuthor - Blackwolfdave\nModifications -
+  m_Text: "ASSETS: \n\nCave background:\nAuthor - Blackwolfdave\nModifications -
     colours changed\r\nLink - opengameart.org/content/rocky-background\n\nSpread
     Sheet: \nAuthor - Buch\nLink - opengameart.org/content/a-platformer-in-the-forest\n\nTrees,
     bushes, rocks art: \nAuthor - Ganamoda\nLink -  opengameart.org/content/190-pixel-art-assets-sci-fi-forest\n\nCharacter
-    art: \nLink - kenney.nl/assets/toon-characters-1\n\n"
+    art: \nLink - kenney.nl/assets/toon-characters-1\n\nFairy art: \nAuthor - Lixing\nModifications
+    - Modified colours and resized image\nLink - opengameart.org/content/explosion-effect-pixel-art\n\r\nBat
+    sprite:\nAuthor - Jetrel\nModifications - Resized\r\nLink - opengameart.org/content/castle-platformer\n\nSpiders
+    art: \nAuthor - surt  \nLink - opengameart.org/content/simple-broad-purpose-tileset
+    \n\nSFX: \n\nTitle - Running in Cave and Forest\r\n\"Free Sounds Library\"\r\nFree
+    Sound Effects Site.\r\nLicence - License: Attribution 4.0 International (CC BY
+    4.0). You are allowed to use sound effects free of charge and royalty free in
+    your multimedia projects for commercial or non-commercial purposes.\r\nLink -
+    freesoundslibrary.com\n\nTitle - Jump SFX, Water in Cave, Rain sound\nLink -
+    freesound.org/people/GlennM/sounds/386529/ \n\nMenu Background Music : \nLink
+    - soundimage.org/fantasywonder/\n\nTHANK YOU FOR PLAYING! \n\nBY WEAVER GAMES
+    2020"
 --- !u!222 &1736572426
 CanvasRenderer:
   m_ObjectHideFlags: 0
