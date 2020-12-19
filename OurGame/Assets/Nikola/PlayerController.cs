@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
+    Rigidbody2D rigidbody2d;
     public float speed;
     public float jumpForce;
-    Rigidbody2D rb;
     float xInput;
-    bool isGrounded;
+    bool isGrounded = false;
 
     bool isJumping = false;
     bool isRunning = false;
@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         isGrounded = false;
 
-        animator = gameObject.GetComponent <Animator>();
+        animator = gameObject.GetComponent<Animator>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
     }
 
@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
     {
         xInput = Input.GetAxis("Horizontal");
 
-        if(xInput != 0)
+        if (xInput != 0)
         {
             isIdle = false;
 
@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
             //if xInput is negative, the player moving left
-            else if(xInput < 0f)
+            else if (xInput < 0f)
             {
                 spriteRenderer.flipX = true;
             }
@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
 
-            if(isGrounded == true)
+            if (isGrounded == true)
             {
                 isIdle = true;
                 isRunning = false;
@@ -120,7 +120,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             //player takes 1 point of fall damage
-            gameObject.GetComponent<PlayerHealth>().ModifyHealth(-1);
+            gameObject.GetComponent<PlayerHealthScript>().ModifyHealth(-1);
         }
     }
 }
