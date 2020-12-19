@@ -7,10 +7,17 @@ public class CheckpointScript : MonoBehaviour
     //Checks if the player has already activated the checkpoint
     private bool isActivated;
 
+    //Check if this checkpoint was already spawned
+    private bool spawned = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
+        if (!spawned)
+        {
+            DontDestroyOnLoad(gameObject);
+            spawned = true;
+        }
     }
 
     // Update is called once per frame
