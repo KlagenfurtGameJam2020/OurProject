@@ -28,10 +28,7 @@ public class EnemyScript : MonoBehaviour
 
     public Vector2 lastPoint;
 
-    //Shows if the enemy moves(flies) vertically instead of horizontally
-    public bool movesVertical;
-
-
+   
 
     private int moveCount;
 
