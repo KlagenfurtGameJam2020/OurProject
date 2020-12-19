@@ -23,15 +23,15 @@ public class DominikPlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       /* if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            rb.velocity = new Vector2(-speed, 0);
+            rb.velocity = new Vector2(-speed, rb.velocity.y);
         }
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            rb.velocity = new Vector2(speed, 0);
-        }*/
+            rb.velocity = new Vector2(speed, rb.velocity.y);
+        }
     }
 
 
