@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneManagerScript : MonoBehaviour
 {
@@ -67,5 +68,8 @@ public class SceneManagerScript : MonoBehaviour
         //Load new Scene
         SceneManager.LoadScene(nextScene);
     }
+
+
+   
 
 }

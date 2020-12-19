@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class MusicScript : MonoBehaviour
 {
-
+    //Music
     public AudioSource normalMusic;
     public AudioSource sadMusic;
     public AudioSource victoryMusic;
+
+
+    //Sound Effects
+    public AudioSource runningSound;
+    public AudioSource menuClick;
 
 
 
@@ -71,5 +76,18 @@ public class MusicScript : MonoBehaviour
     {
         victoryMusic.Play();
     }
+
+
+    public void PlayMenuClick()
+    {
+        menuClick.Play();
+    }
+
+
+    public void PlayRunningSound()
+    {
+        runningSound.Play();
+    }
+
 
 }
