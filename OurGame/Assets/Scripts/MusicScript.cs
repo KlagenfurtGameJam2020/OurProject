@@ -53,7 +53,7 @@ public class MusicScript : MonoBehaviour
 
     public void PlayNormal()
     {
-        if (!normalMusic.isPlaying)
+        if (normalMusic != null && !normalMusic.isPlaying)
         {
             normalMusic.PlayDelayed(0.2f);
             currentMusic = normalMusic;
@@ -62,7 +62,7 @@ public class MusicScript : MonoBehaviour
 
     public void PlaySad()
     {
-        if (!sadMusic.isPlaying)
+        if (sadMusic != null && !sadMusic.isPlaying)
         {
             sadMusic.PlayDelayed(0.2f);
             currentMusic = sadMusic;

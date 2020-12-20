@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -461,7 +461,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -623,7 +623,7 @@ SpriteRenderer:
   m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &357230323
@@ -796,7 +796,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 505714204}
-  - component: {fileID: 505714203}
   - component: {fileID: 505714202}
   - component: {fileID: 505714201}
   m_Layer: 0
@@ -836,19 +835,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84c0a9979704a4640916404a831ada77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &505714203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505714200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28b3cc387b64a4e4f8f6227aa40d38bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextScene: 
 --- !u!4 &505714204
 Transform:
   m_ObjectHideFlags: 0
@@ -1405,7 +1391,7 @@ SpriteRenderer:
   m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1585202770

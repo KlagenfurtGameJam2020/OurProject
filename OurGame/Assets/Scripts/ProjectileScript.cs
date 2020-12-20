@@ -33,7 +33,7 @@ public class ProjectileScript : MonoBehaviour
       
         //Destroy projectile when it collides with a wall)
 
-        if (collision.CompareTag("Wall"))
+        if (collision.CompareTag("Wall") || collision.gameObject.name.Equals("Light"))
         {
             DestroyProjectile();
         }
