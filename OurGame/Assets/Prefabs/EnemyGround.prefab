@@ -122,11 +122,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
-  shootCount: 5
+  shootCount: 1
   projectile: {fileID: 268147080465328399, guid: e70cd2b4b746b40d790f580e9afd19d6,
     type: 3}
-  projectileSpeed: 5
-  timeBetweenShots: 0.3
+  projectileSpeed: 3
+  timeBetweenShots: 0.25
   waitTime: 0.5
   moves:
   - {x: -3, y: 0}
