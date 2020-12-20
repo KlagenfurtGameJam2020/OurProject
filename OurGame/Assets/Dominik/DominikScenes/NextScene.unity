@@ -483,17 +483,17 @@ PrefabInstance:
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: sprites.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Hello and Welcome here!!!
+      value: "Let\u2019s not linger here any more. Rest in peace, poor forest soul..."
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -504,7 +504,7 @@ PrefabInstance:
         type: 3}
       propertyPath: sprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 54bca2430b7204f4eb022cca9bfb495f,
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
         type: 3}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -653,6 +653,129 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a253a563cf0b4b159fdab50497d7f32, type: 3}
+--- !u!1001 &552810819
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[0]
+      value: The fairy looks at you, you can feel its curious gaze.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[1]
+      value: "You are not as bad as the average human, do you? I still don\u2019t
+        know if I should trust you, but I will give you a chance."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: Rest now, I will see you later.Rest now, I will see you later.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: de1f53c095fe0406f82b510feccb36ad,
+        type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
+        type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
+        type: 3}
+    - target: {fileID: 3595735693159527701, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueLevel4EndNeutral
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527701, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.4492188
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061458591682308084, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ed76652d8d40413b8fe011190f42516, type: 3}
 --- !u!1 &642001702
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,17 +1364,17 @@ PrefabInstance:
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: sprites.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Hello and Welcome here!!!
+      value: 'Yes, let''s go on. Thank you for not forcing me to kill. '
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -1262,7 +1385,7 @@ PrefabInstance:
         type: 3}
       propertyPath: sprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 54bca2430b7204f4eb022cca9bfb495f,
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
         type: 3}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -1434,18 +1557,19 @@ PrefabInstance:
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Hello and Welcome here!!!
+      value: 'I can see the cavern exit, soon we will arrive to a part of the forest
+        that Enachra already covered under her web. '
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: Welcome from me too!!!!!!!
+      value: 'It is a sad sight, I am glad that most of it is shrouded in the darkness. '
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: sprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 54bca2430b7204f4eb022cca9bfb495f,
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
         type: 3}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -1535,22 +1659,45 @@ PrefabInstance:
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.size
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: sprites.Array.size
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Hello and Welcome here!!!
+      value: 'Whoah! What are you? Are you a fairy from the rumors? '
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: Welcome from me too!!!!!!!
+      value: 'Yes I am? Why do you think this is called the fairy forest?  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: "I can\u2019t believe it! You are glowing like my crystal! It looks
+        pretty. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[3]
+      value: You have a light crystal! You must help us! The forest is in danger!
+        You can clean the venom from these lands. Come this way!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[4]
+      value: 'Yes I am? Why do you think this is called the fairy forest?  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[5]
+      value: "She flew into that dark cave. It\u2019s better not be some kind of
+        prank. \u2026 Right behind you Miss Fairy. "
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -1561,6 +1708,30 @@ PrefabInstance:
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: sprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
+        type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 54bca2430b7204f4eb022cca9bfb495f,
+        type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
+        type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 54bca2430b7204f4eb022cca9bfb495f,
+        type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[5]
       value: 
       objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
         type: 3}
@@ -1783,24 +1954,27 @@ PrefabInstance:
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Hello and Welcome here!!!
+      value: 'Be careful, some of the corrupted creatures will attack you from a
+        distance. I can shield you from their projectiles, if I am close enough to
+        catch them. '
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: Welcome from me too!!!!!!!
+      value: 'Your fairy companion will block projectiles if she is close enough
+        to them. '
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: sprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 54bca2430b7204f4eb022cca9bfb495f,
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
         type: 3}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: sprites.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
+      objectReference: {fileID: 21300000, guid: de1f53c095fe0406f82b510feccb36ad,
         type: 3}
     - target: {fileID: 3595735693159527701, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -2040,18 +2214,19 @@ PrefabInstance:
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Hello and Welcome here!!!
+      value: "The creatures here are more restless, but don\u2019t worry. If we pay
+        attention, we can learn their movements. "
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: Welcome from me too!!!!!!!
+      value: 'They are wandering around aimlessly, stuck in the same nightmare. '
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: sprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 54bca2430b7204f4eb022cca9bfb495f,
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
         type: 3}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -2233,6 +2408,7 @@ GameObject:
   - component: {fileID: 1078706949}
   - component: {fileID: 1078706948}
   - component: {fileID: 1078706947}
+  - component: {fileID: 1078706954}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2388,6 +2564,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1078706954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078706946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 307c764cd4192499d8d7d321adf7e806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesTotal: 0
+  enemiesAlive: 0
+  score: 0
 --- !u!1001 &1148410744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2398,22 +2589,43 @@ PrefabInstance:
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: sprites.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Hello and Welcome here!!!
+      value: "I can barely see anything, luckily my crystal gives me enough light
+        so I don\u2019t fall."
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: Welcome from me too!!!!!!!
+      value: 'Hey Listen! I meant to say, we are in a cave. Be careful, you can find
+        some poor soul here, who got poisoned by Enachra. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: 'Enachra! As the world spider? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[3]
+      value: Yes! But your crystal will protect you from her poison. Still, the corrupted
+        creatures can harm you. I will illuminate your surroundings, so try to avoid
+        them. My fairy light can hurt them ... but I would rather avoid it. Anyway,
+        I will protect you, no matter what you do.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[4]
+      value: 'Tutorial: Enemies become visible when illuminated. You can also move
+        in a way to hit them with your fairy companions light, to kill them.'
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -2426,6 +2638,24 @@ PrefabInstance:
       propertyPath: sprites.Array.data[1]
       value: 
       objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
+        type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 54bca2430b7204f4eb022cca9bfb495f,
+        type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
+        type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: de1f53c095fe0406f82b510feccb36ad,
         type: 3}
     - target: {fileID: 3595735693159527701, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -2963,12 +3193,12 @@ PrefabInstance:
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: sprites.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -2980,10 +3210,23 @@ PrefabInstance:
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: She was always spinning her web, covering more and more of the forest,
+      value: 'She was always spinning her web, covering more and more of the forest,
         engulfing it slowly in darkness. The guardians of the forest, the peaceful
         fairies, watched in panic as their beloved green woods slowly descended to
-        chaos. As all hope seems lost, a lone human ventured to the edge of the forest.
+        chaos. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: As all hope seems lost, a lone human ventured to the edge of the forest.As
+        all hope seems lost, a lone human ventured to the edge of the forest.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[3]
+      value: "You can move left and right using the \u2190 and \u2192 or the \u2018A\u2019
+        and \u2018D\u2019 keys . You can also jump by pressing \u2018space\u2019.
+        Find and reach the exit. "
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -2997,6 +3240,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: de1f53c095fe0406f82b510feccb36ad,
         type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: de1f53c095fe0406f82b510feccb36ad,
+        type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: de1f53c095fe0406f82b510feccb36ad,
+        type: 3}
     - target: {fileID: 3595735693159527701, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: m_Name
@@ -3005,7 +3260,7 @@ PrefabInstance:
     - target: {fileID: 3595735693159527701, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -3079,28 +3334,35 @@ PrefabInstance:
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: sprites.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Hello and Welcome here!!!
+      value: As the fairy looked at you, it emitted a disappointed aura.
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: Welcome from me too!!!!!!!
+      value: I thought you can be different from other humans, but it was a mistake.
+        I am grateful for your help, but I wish you would leave as soon as possible.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: You are not welcomed in this forest. You killed and hurt too many of
+        its children.
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: sprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 54bca2430b7204f4eb022cca9bfb495f,
+      objectReference: {fileID: 21300000, guid: de1f53c095fe0406f82b510feccb36ad,
         type: 3}
     - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -3108,10 +3370,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
         type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
+        type: 3}
     - target: {fileID: 3595735693159527701, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
       propertyPath: m_Name
-      value: DialogueLevel4End
+      value: DialogueLevel4EndBad
       objectReference: {fileID: 0}
     - target: {fileID: 3595735693159527701, guid: 4ed76652d8d40413b8fe011190f42516,
         type: 3}
@@ -3555,6 +3823,130 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &2129413110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[0]
+      value: 'The fairy looks at you, it emits a warm, fuzzy aura. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[1]
+      value: 'You are one interesting human. Stay like this and one day I might even
+        tell you my name. Rest now, I will see you later. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: You are not welcomed in this forest. You killed and hurt too many of
+        its children.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: de1f53c095fe0406f82b510feccb36ad,
+        type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
+        type: 3}
+    - target: {fileID: 3595735693159527700, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: sprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5411317dbb9be4865acb996fd8dcab07,
+        type: 3}
+    - target: {fileID: 3595735693159527701, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueLevel4EndGood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527701, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.4492188
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595735693159527703, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061458591682308084, guid: 4ed76652d8d40413b8fe011190f42516,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ed76652d8d40413b8fe011190f42516, type: 3}
 --- !u!1001 &3595735692086094309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3867,8 +4259,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f46d9fbac62d0dc49804a71405ae3767,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8281759607624777367, guid: 18c9b28b2f8254b05ae5a58a3a171596,
         type: 3}
       propertyPath: m_Name
