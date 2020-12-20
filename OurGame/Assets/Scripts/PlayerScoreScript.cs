@@ -32,7 +32,7 @@ public class PlayerScoreScript : MonoBehaviour
 
     IEnumerator CountInitialNumberOfEnemies()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(1.0f);
 
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
@@ -50,6 +50,9 @@ public class PlayerScoreScript : MonoBehaviour
 
         enemiesAlive = enemies.Length;
 
+
+        Debug.Log("Calculate Live enemies:" + enemiesAlive);
+
         return enemiesAlive;
 
     }
@@ -63,11 +66,16 @@ public class PlayerScoreScript : MonoBehaviour
         if (enemiesTotal != 0)
         {
             score = CalculateEnemiesAlive() / enemiesTotal;
+
+
         }
         else
         {
             score = 1;
         }
+
+
+        Debug.Log("Calculate Score:" + score);
 
         return score;
     }
