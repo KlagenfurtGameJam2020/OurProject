@@ -1,16 +1,19 @@
 fileFormatVersion: 2
-guid: 3b17bdd125b20c949aa145285d05371e
+guid: 7cb0ef1bd96d4914fa4b051188fd61e4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6146124797102630947
-    second: Spider walking_0
+      213: 1802819039584990477
+    second: king slash_0
   - first:
-      213: 3077478406317189428
-    second: Spider walking_1
+      213: -7625549918856332165
+    second: king slash_1
   - first:
-      213: -5665647938716539953
-    second: Spider walking_2
+      213: 3078777273080467275
+    second: king slash_2
+  - first:
+      213: 2405752851954959946
+    second: king slash_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spider walking_0
+      name: king slash_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
+        x: 8
+        y: 0
         width: 15
-        height: 11
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,41 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd75a738f0494baa0800000000000000
-      internalID: -6146124797102630947
+      spriteID: d0536c06d56e40910800000000000000
+      internalID: 1802819039584990477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider walking_1
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 1
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 439a87c2e4665ba20800000000000000
-      internalID: 3077478406317189428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spider walking_2
+      name: king slash_1
       rect:
         serializedVersion: 2
         x: 33
-        y: 1
+        y: 0
         width: 15
-        height: 11
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +158,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc36066b7339f51b0800000000000000
-      internalID: -5665647938716539953
+      spriteID: b7c3f8d20ca9c2690800000000000000
+      internalID: -7625549918856332165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king slash_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fc1882e930aba20800000000000000
+      internalID: 3078777273080467275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: king slash_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46882ef873f26120800000000000000
+      internalID: 2405752851954959946
       vertices: []
       indices: 
       edges: []

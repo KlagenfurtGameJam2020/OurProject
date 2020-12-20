@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 3b17bdd125b20c949aa145285d05371e
+guid: 5c84751723fa19246857462cda90ac24
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6146124797102630947
-    second: Spider walking_0
+      213: -3882828455846753774
+    second: boyHit_0
   - first:
-      213: 3077478406317189428
-    second: Spider walking_1
+      213: -90314505381239116
+    second: boyHit_1
   - first:
-      213: -5665647938716539953
-    second: Spider walking_2
+      213: 8134632668138623027
+    second: boyHit_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,13 +120,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spider walking_0
+      name: boyHit_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 15
-        height: 11
+        x: 0
+        y: 0
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd75a738f0494baa0800000000000000
-      internalID: -6146124797102630947
+      spriteID: 21ac97d671c6d1ac0800000000000000
+      internalID: -3882828455846753774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider walking_1
+      name: boyHit_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1
-        width: 15
-        height: 11
+        x: 30
+        y: 0
+        width: 17
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 439a87c2e4665ba20800000000000000
-      internalID: 3077478406317189428
+      spriteID: 4b6afa49f632fbef0800000000000000
+      internalID: -90314505381239116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider walking_2
+      name: boyHit_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 1
-        width: 15
-        height: 11
+        x: 60
+        y: 0
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc36066b7339f51b0800000000000000
-      internalID: -5665647938716539953
+      spriteID: 330d0b2005504e070800000000000000
+      internalID: 8134632668138623027
       vertices: []
       indices: 
       edges: []

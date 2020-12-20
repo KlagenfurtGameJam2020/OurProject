@@ -1,16 +1,19 @@
 fileFormatVersion: 2
-guid: 3b17bdd125b20c949aa145285d05371e
+guid: 9068bb2dee284a748a3cacddb614abbc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6146124797102630947
-    second: Spider walking_0
+      213: -4290471094906323865
+    second: King walk_0
   - first:
-      213: 3077478406317189428
-    second: Spider walking_1
+      213: 4906630999377941789
+    second: King walk_1
   - first:
-      213: -5665647938716539953
-    second: Spider walking_2
+      213: -5656495338078186280
+    second: King walk_2
+  - first:
+      213: -4098589358565745565
+    second: King walk_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spider walking_0
+      name: King walk_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
+        x: 0
+        y: 0
         width: 15
-        height: 11
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd75a738f0494baa0800000000000000
-      internalID: -6146124797102630947
+      spriteID: 76cf605654f2574c0800000000000000
+      internalID: -4290471094906323865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider walking_1
+      name: King walk_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 32
         y: 1
         width: 15
-        height: 11
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 439a87c2e4665ba20800000000000000
-      internalID: 3077478406317189428
+      spriteID: d1597d1c5ead71440800000000000000
+      internalID: 4906630999377941789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider walking_2
+      name: King walk_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 1
-        width: 15
-        height: 11
+        x: 63
+        y: 0
+        width: 16
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +179,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc36066b7339f51b0800000000000000
-      internalID: -5665647938716539953
+      spriteID: 8d4523c95771081b0800000000000000
+      internalID: -5656495338078186280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King walk_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c1e7291b2ee17c0800000000000000
+      internalID: -4098589358565745565
       vertices: []
       indices: 
       edges: []
