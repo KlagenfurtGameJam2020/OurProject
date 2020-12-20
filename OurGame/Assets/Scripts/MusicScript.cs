@@ -9,6 +9,7 @@ public class MusicScript : MonoBehaviour
     public AudioSource sadMusic;
     public AudioSource victoryMusic;
 
+    public AudioSource currentMusic;
 
     //Sound Effects
     public AudioSource runningSound;
@@ -22,7 +23,7 @@ public class MusicScript : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        /*if (!isSpawned)
+      /*  if (!isSpawned)
         {
             DontDestroyOnLoad(gameObject);
             isSpawned = true;
@@ -40,7 +41,7 @@ public class MusicScript : MonoBehaviour
 
     private void Update()
     {
-        if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+        if (sadMusic != null && GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScoreScript>().CalculateScore() <= 0.5)
         {
             StopNormal();
             PlaySad();
@@ -53,13 +54,24 @@ public class MusicScript : MonoBehaviour
     public void PlayNormal()
     {
         if (!normalMusic.isPlaying)
+        {
             normalMusic.PlayDelayed(0.2f);
+            currentMusic = normalMusic;
+        }
     }
 
     public void PlaySad()
     {
         if (!sadMusic.isPlaying)
+        {
             sadMusic.PlayDelayed(0.2f);
+            currentMusic = sadMusic;
+        }
+    }
+
+    public void StopCurrentMusic()
+    {
+        currentMusic.Stop();
     }
 
     public void StopNormal()

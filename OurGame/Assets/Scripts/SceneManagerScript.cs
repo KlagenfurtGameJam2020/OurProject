@@ -51,19 +51,25 @@ public class SceneManagerScript : MonoBehaviour
         float tempPlayerMoveSpeed = player.moveSpeed;
         player.moveSpeed = 0;
 
+        float tempFairySpeed = 0;
         LightMovement fairy = FindObjectOfType<LightMovement>();
-        float tempFairySpeed = fairy.rotateSpeed;
-        fairy.rotateSpeed = 0;
+        if (fairy != null)
+        {
+            tempFairySpeed = fairy.rotateSpeed;
+            fairy.rotateSpeed = 0;
+        }
 
         MusicScript music = FindObjectOfType<MusicScript>();
 
-        music.StopNormal();
-        music.StopSad();
+        music.StopCurrentMusic();
+       
         FindObjectOfType<MusicScript>().PlayVictory();
 
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(7f);
 
         player.moveSpeed = tempPlayerMoveSpeed;
+
+        if(fairy != null) 
         fairy.rotateSpeed = (int)tempFairySpeed;
         //Load new Scene
         SceneManager.LoadScene(nextScene);

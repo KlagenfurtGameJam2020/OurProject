@@ -60,7 +60,14 @@ public class PlayerScoreScript : MonoBehaviour
 
         Debug.Log("Calculate Score!");
 
-        score = CalculateEnemiesAlive() / enemiesTotal;
+        if (enemiesTotal != 0)
+        {
+            score = CalculateEnemiesAlive() / enemiesTotal;
+        }
+        else
+        {
+            score = 1;
+        }
 
         return score;
     }
