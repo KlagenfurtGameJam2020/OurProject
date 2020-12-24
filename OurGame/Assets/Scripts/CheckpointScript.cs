@@ -8,7 +8,7 @@ public class CheckpointScript : MonoBehaviour
     private bool isActivated;
 
     //Check if this checkpoint was already spawned
-    public static bool spawned = false;
+    private bool spawned = false;
 
     // Start is called before the first frame update
     void Start()
