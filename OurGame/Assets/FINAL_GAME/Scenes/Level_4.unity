@@ -1499,12 +1499,20 @@ PrefabInstance:
     - target: {fileID: 4104192034209627303, guid: a0c667af923c043d7acb88cfc53193d3,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: 4.46
+=======
+      value: 8.19
+>>>>>>> parent of 8b23d75... fixed light around player and physics
       objectReference: {fileID: 0}
     - target: {fileID: 4104192034209627303, guid: a0c667af923c043d7acb88cfc53193d3,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: 16.919998
+=======
+      value: 17.51
+>>>>>>> parent of 8b23d75... fixed light around player and physics
       objectReference: {fileID: 0}
     - target: {fileID: 4104192034209627303, guid: a0c667af923c043d7acb88cfc53193d3,
         type: 3}
@@ -1631,11 +1639,15 @@ BoxCollider2D:
   m_EdgeRadius: 0
 --- !u!212 &593069646
 SpriteRenderer:
+<<<<<<< HEAD
+>>>>>>> parent of 8b23d75... fixed light around player and physics
+=======
 >>>>>>> parent of 8b23d75... fixed light around player and physics
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 531112704}
   m_Enabled: 1
@@ -1707,6 +1719,8 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 8b23d75... fixed light around player and physics
 =======
 >>>>>>> parent of 8b23d75... fixed light around player and physics
   m_GameObject: {fileID: 593069643}
@@ -2602,6 +2616,266 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &924348845
+<<<<<<< HEAD
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7398941678029536716, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678029536716, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678029536716, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678029536716, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678029536716, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171109, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171111, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: jumpPower
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 14e8cd6e9e803440ebde13453a1773e3, type: 3}
+--- !u!1 &924348846 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7398941678118171109, guid: 14e8cd6e9e803440ebde13453a1773e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 924348845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &924348847 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 924348845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924348848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7398941678029536715, guid: 14e8cd6e9e803440ebde13453a1773e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 924348845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &924348849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924348846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 307c764cd4192499d8d7d321adf7e806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesTotal: 0
+  enemiesAlive: 0
+  score: 0
+--- !u!114 &924348850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924348848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+--- !u!81 &924348851
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924348848}
+  m_Enabled: 1
+--- !u!1 &927514516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 927514519}
+  - component: {fileID: 927514518}
+  - component: {fileID: 927514517}
+  m_Layer: 0
+  m_Name: Pit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &927514517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927514516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bc516af222649a295f7b25978d040c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 100
+--- !u!61 &927514518
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927514516}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 13.43847, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 31.071882, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &927514519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927514516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7789035, y: -6.51, z: -21.27539}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &997765065
+=======
+>>>>>>> parent of 8b23d75... fixed light around player and physics
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -3225,6 +3499,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1199542367
+<<<<<<< HEAD
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3477,6 +3752,8 @@ PrefabInstance:
 =======
 --- !u!1 &1199542367
 >>>>>>> parent of 8b23d75... fixed light around player and physics
+=======
+>>>>>>> parent of 8b23d75... fixed light around player and physics
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3485,16 +3762,26 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1356787034}
   - component: {fileID: 1356787036}
   - component: {fileID: 1356787035}
   m_Layer: 0
   m_Name: Player light
   m_TagString: Light
+=======
+  - component: {fileID: 1199542368}
+  - component: {fileID: 1199542370}
+  - component: {fileID: 1199542369}
+  m_Layer: 0
+  m_Name: New Sprite (21)
+  m_TagString: Untagged
+>>>>>>> parent of 8b23d75... fixed light around player and physics
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &1356787034
 Transform:
   m_ObjectHideFlags: 0
@@ -3594,10 +3881,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1459454715
 MonoBehaviour:
+=======
+--- !u!4 &1199542368
+Transform:
+>>>>>>> parent of 8b23d75... fixed light around player and physics
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1459454714}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3610,10 +3902,23 @@ MonoBehaviour:
 --- !u!95 &1459454716
 Animator:
   serializedVersion: 3
+=======
+  m_GameObject: {fileID: 1199542367}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 26.65, y: 10.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 808182256}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1199542369
+BoxCollider2D:
+>>>>>>> parent of 8b23d75... fixed light around player and physics
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1459454714}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
@@ -3628,10 +3933,35 @@ Animator:
   m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!61 &1459454717
 BoxCollider2D:
+=======
+  m_GameObject: {fileID: 1199542367}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 4, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 1}
+  m_EdgeRadius: 0
+--- !u!212 &1199542370
+SpriteRenderer:
+>>>>>>> parent of 8b23d75... fixed light around player and physics
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1459454714}
   m_Enabled: 1
   m_Density: 1
@@ -3658,6 +3988,52 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1241380503}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_GameObject: {fileID: 1199542367}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: f8783d1e2dd2f4ae5b0e32d41c28503d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 2
+  m_Size: {x: 4, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+>>>>>>> parent of 8b23d75... fixed light around player and physics
 --- !u!1 &1465488575
 GameObject:
   m_ObjectHideFlags: 0
@@ -4593,6 +4969,53 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703550941}
   m_Enabled: 1
+<<<<<<< HEAD
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c2908cd36ae4b75a26e87654505184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1703550941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1703550942}
+  - component: {fileID: 1703550944}
+  - component: {fileID: 1703550943}
+  m_Layer: 0
+  m_Name: Player light
+  m_TagString: Light
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1703550942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703550941}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.02, y: -0.13, z: 0}
+  m_LocalScale: {x: 0.6666667, y: 1.6833333, z: 0}
+  m_Children: []
+  m_Father: {fileID: 924348847}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1703550943
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703550941}
+  m_Enabled: 1
+>>>>>>> parent of 8b23d75... fixed light around player and physics
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -4791,6 +5214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   player: {fileID: 1459454714}
 --- !u!1 &1764801663
 GameObject:
@@ -4901,6 +5325,9 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+=======
+  player: {fileID: 924348846}
+>>>>>>> parent of 8b23d75... fixed light around player and physics
 =======
   player: {fileID: 924348846}
 >>>>>>> parent of 8b23d75... fixed light around player and physics

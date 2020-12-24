@@ -209,6 +209,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &73407200
@@ -242,6 +243,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1071934613}
   m_RootOrder: 3
+=======
+  m_RootOrder: 8
+>>>>>>> parent of 8b23d75... fixed light around player and physics
 =======
   m_RootOrder: 8
 >>>>>>> parent of 8b23d75... fixed light around player and physics
@@ -557,7 +561,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
+=======
+      value: 6
+>>>>>>> parent of 8b23d75... fixed light around player and physics
 =======
       value: 6
 >>>>>>> parent of 8b23d75... fixed light around player and physics
@@ -1819,7 +1827,11 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
     oldSize: {x: 0.16, y: 0.16}
+=======
+    oldSize: {x: 1, y: 1}
+>>>>>>> parent of 8b23d75... fixed light around player and physics
 =======
     oldSize: {x: 1, y: 1}
 >>>>>>> parent of 8b23d75... fixed light around player and physics
@@ -1882,6 +1894,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1247547487
 GameObject:
@@ -1956,6 +1969,8 @@ MonoBehaviour:
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
 =======
+=======
+>>>>>>> parent of 8b23d75... fixed light around player and physics
 --- !u!1001 &1293658132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2050,6 +2065,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 525e4a86f39f343ffb7eb67196f83570, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of 8b23d75... fixed light around player and physics
+=======
 >>>>>>> parent of 8b23d75... fixed light around player and physics
 --- !u!1 &1329150092
 GameObject:
@@ -2463,7 +2481,10 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0c667af923c043d7acb88cfc53193d3, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 8b23d75... fixed light around player and physics
 --- !u!1001 &1480093617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2472,6 +2493,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7398941678029536716, guid: 14e8cd6e9e803440ebde13453a1773e3,
+<<<<<<< HEAD
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678029536716, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678029536716, guid: 14e8cd6e9e803440ebde13453a1773e3,
+=======
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -2522,11 +2555,67 @@ PrefabInstance:
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+>>>>>>> parent of 8b23d75... fixed light around player and physics
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 7398941678029536716, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678029536716, guid: 14e8cd6e9e803440ebde13453a1773e3,
+=======
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+>>>>>>> parent of 8b23d75... fixed light around player and physics
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171109, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171111, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: jumpPower
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+<<<<<<< HEAD
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
@@ -2542,6 +2631,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398941678118171115, guid: 14e8cd6e9e803440ebde13453a1773e3,
+=======
+>>>>>>> parent of 8b23d75... fixed light around player and physics
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -2759,6 +2850,9 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+<<<<<<< HEAD
+>>>>>>> parent of 8b23d75... fixed light around player and physics
+=======
 >>>>>>> parent of 8b23d75... fixed light around player and physics
 --- !u!1 &1747335126
 GameObject:
@@ -2889,9 +2983,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   player: {fileID: 1071934605}
 --- !u!1 &1762336226
 =======
+=======
+>>>>>>> parent of 8b23d75... fixed light around player and physics
   player: {fileID: 1480093620}
 --- !u!1 &1792123251
 >>>>>>> parent of 8b23d75... fixed light around player and physics
@@ -3699,6 +3796,7 @@ Transform:
   m_Father: {fileID: 2077852307}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &2077852304
 GameObject:
   m_ObjectHideFlags: 0
@@ -3766,6 +3864,9 @@ Transform:
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2090460064
+=======
+--- !u!1 &1992418097
+>>>>>>> parent of 8b23d75... fixed light around player and physics
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3840,3 +3941,85 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+<<<<<<< HEAD
+=======
+--- !u!4 &1992418099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992418097}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.2998066, y: -0.2194767, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2077852304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2077852307}
+  - component: {fileID: 2077852306}
+  - component: {fileID: 2077852305}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2077852305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077852304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c0a9979704a4640916404a831ada77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2077852306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077852304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d1cafe282ef44598aa33f894a09184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normalMusic: {fileID: 463839005}
+  sadMusic: {fileID: 1937343119}
+  victoryMusic: {fileID: 1792123252}
+  currentMusic: {fileID: 0}
+  runningSound: {fileID: 0}
+  menuClick: {fileID: 0}
+--- !u!4 &2077852307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077852304}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.544152, y: -0.04469788, z: -1.5957031}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 463839006}
+  - {fileID: 1792123253}
+  - {fileID: 1937343120}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 8b23d75... fixed light around player and physics

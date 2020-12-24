@@ -753,6 +753,7 @@ PrefabInstance:
         type: 3}
       propertyPath: jumpPower
       value: 10
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7398941678118171114, guid: 14e8cd6e9e803440ebde13453a1773e3,
         type: 3}
@@ -768,6 +769,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.23
+=======
+>>>>>>> parent of 8b23d75... fixed light around player and physics
       objectReference: {fileID: 0}
     - target: {fileID: 7398941678118171114, guid: 14e8cd6e9e803440ebde13453a1773e3,
         type: 3}

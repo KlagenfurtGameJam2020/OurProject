@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: dc170756066068a4cb34c34cd33d04d0
 =======
 <<<<<<< HEAD:OurGame/Assets/Ksenia/BackgroundAnimation.meta
@@ -7,6 +8,9 @@ guid: 813dbb57059cb684dbe5b38bd821f01a
 =======
 guid: dc170756066068a4cb34c34cd33d04d0
 >>>>>>> parent of 8b23d75... fixed light around player and physics:OurGame/Assets/Sprites.meta
+>>>>>>> parent of 8b23d75... fixed light around player and physics
+=======
+guid: dc170756066068a4cb34c34cd33d04d0
 >>>>>>> parent of 8b23d75... fixed light around player and physics
 folderAsset: yes
 DefaultImporter:
