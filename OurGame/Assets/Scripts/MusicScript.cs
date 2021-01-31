@@ -41,11 +41,11 @@ public class MusicScript : MonoBehaviour
 
     private void Update()
     {
-       /* if (GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScoreScript>().CalculateScore() <= 0.5)
+        if (sadMusic != null && GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScoreScript>().CalculateScore() <= 0.5)
         {
             StopNormal();
             PlaySad();
-        }*/
+        }
 
     }
 

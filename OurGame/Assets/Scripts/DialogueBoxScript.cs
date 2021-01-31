@@ -42,12 +42,7 @@ public class DialogueBoxScript : MonoBehaviour
 
                 //Unfreeze player
                 GameObject.Find("Player").GetComponent<PlayerController>().enabled = true;
-                GameObject light = GameObject.Find("Light");
-
-                    if (light != null) {
-
-                    light.GetComponent<LightMovement>().enabled = true;
-                }
+                GameObject.Find("Light").GetComponent<LightMovement>().enabled = true;
             }
 
 
@@ -63,12 +58,7 @@ public class DialogueBoxScript : MonoBehaviour
 
             //freeze player
             GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
-            GameObject light = GameObject.Find("Light");
-
-            if(light != null)
-            {
-                light.GetComponent<LightMovement>().enabled = false;
-            }
+            GameObject.Find("Light").GetComponent<LightMovement>().enabled = false;
 
 
             this.texts = texts;

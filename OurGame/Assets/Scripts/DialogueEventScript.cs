@@ -11,20 +11,7 @@ public class DialogueEventScript : MonoBehaviour
     public Sprite[] sprites;
 
     bool isActivated;
-
-    public static bool spawned;
-
-    void Start()
-    {
-        if (!spawned)
-        {
-            DontDestroyOnLoad(gameObject);
-            spawned = true;
-        }
-        else{
-            Destroy(gameObject);
-        }
-    }
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
